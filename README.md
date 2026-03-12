@@ -1,7 +1,7 @@
 # RC-Interpretability
 Does activation patching identify localized computational structure in reservoir computers, and does that structure correspond to what we know about network topology?
 
-Reservoir computers offer a rare opportunity for interpretability research: a neural-network-like system where the underlying structure is fully known and controllable. Unlike transformers, where identifying a "circuit" requires inferring ground truth from behavior, reservoir networks can be constructed with known topology, thinned in controlled ways, and analyzed against established performance metrics. This makes them a natural testbed for asking whether interpretability methods like activation patching actually recover true computational structure — or just correlate with it.
+Reservoir computers offer a rare opportunity for interpretability research: a neural-network-like system where the underlying structure is fully known and controllable. Unlike transformers, where identifying a "circuit" requires inferring ground truth from behavior, reservoir networks can be constructed with known topology, thinned in controlled ways, and analyzed against established performance metrics. This makes them a natural testbed for asking whether interpretability methods like activation patching actually recover true computational structure or just correlate with it.
 
 Our toy problem will be predicting orbits on chaotic attractors, specifically the Lorenz, Rossler, and Thomas attractors. This is a task at which reservoir computers, particularly those with thinned networks, perform well.
 
