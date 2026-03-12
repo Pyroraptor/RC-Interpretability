@@ -6,7 +6,7 @@ Reservoir computers offer a rare opportunity for interpretability research: a ne
 Our toy problem will be predicting orbits on chaotic attractors, specifically the Lorenz, Rossler, and Thomas attractors. This is a task at which reservoir computers, particularly those with thinned networks, perform well.
 
 # Step 0: Collecting our test subjects
-This step is where we generate a set of reservoirs that perform well on the task of predicting orbits on a given attractor (we'll start with the Lorenz). Our metric for performing well is "valid prediction time", which is a measure of how long it takes the predicted trajectory to diverge a certain amount from the actual trajectory.
+This step is where we generate a set of reservoirs that perform well on the task of predicting orbits on a given attractor (we'll start with the Lorenz). Our metric for performing well is "valid prediction time" (VPT), which is a measure of how long it takes the predicted trajectory to diverge a certain amount from the actual trajectory.
 
 # Step 1: Identifying network structures and their contribution
 The main goal here is to investigate the structure of the well-performing networks and how they contribute to the predictions. Are certain nodes or components of the network more dominant than others? Does this change over time? We also want a nice way to visualize this - some sort of heat map of the network would be ideal.
